@@ -15,3 +15,5 @@ vim.keymap.set('n', '<leader>ee', ':!node %<CR>', { silent = true, desc = "Run J
 --vim.keymap.set('n', "C-n")
 --html live server code
 vim.keymap.set('n', '<leader><C-l>', ':te live-server %:p:h<CR>', { desc = "Live Server" })
+--keybind to push the git file
+vim.keymap.set('n', '<leader>gp', ':!git push -u origin master', { desc = "git push" })
